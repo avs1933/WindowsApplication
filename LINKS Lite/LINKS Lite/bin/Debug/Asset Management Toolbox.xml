@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AssetManagementToolbox
+</name>
+</assembly>
+<members>
+<member name="P:SMA_Toolbox.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMA_Toolbox.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMA_Toolbox.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.sys_RolesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.sys_UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.Firm_ApprovalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.sys_RolesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.sys_UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.Firm_ApprovalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.sys_RolesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.sys_UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet.Firm_ApprovalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.sys_RolesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.sys_UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.Firm_ApprovalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SMA_Toolbox.SalesInterfaceDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SMA_Toolbox.SalesInterfaceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SMA_Toolbox.SalesInterfaceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager.UpdateAll(SMA_Toolbox.SalesInterfaceDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMA_Toolbox.SalesInterfaceDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

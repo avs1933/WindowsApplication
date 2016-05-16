@@ -1,0 +1,129 @@
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\LINKS Lite.vbproj.GenerateResource.Cache
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.DBInfo.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Home.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Login.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Resources.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Splash.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.MapDB.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Permissions.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.SpoofUser.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Users.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UserEdit.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Asset Management Toolbox.exe.config
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Asset Management Toolbox.exe
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Asset Management Toolbox.pdb
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Asset Management Toolbox.xml
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.exe
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.xml
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.pdb
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.AccountSearch.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RoleEdit.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Firms.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.FirmOverview.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.APXBrowser.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.FeeUpdate.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Asset Management Toolbox.exe.manifest
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Asset Management Toolbox.application
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.exe.manifest
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.application
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.FirmView.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Dashboard.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.CommCalc.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RFPCenter.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RoundUp.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RFP_Resposes.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rfp_ChangeLog.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.MasterMapping.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.mmc_Database.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rfp_Report.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rfp_ReportQuestion.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rfp_ReportsChangeLog.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMA.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\RichTextBoxPrintCtrl.dll
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\RichTextBoxPrintCtrl.pdb
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\RichTextBoxPrintCtrl.xml
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMATradeEdit.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMAExceptons.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMAPortfolio.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMAPortfolioWorker.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMAChangeLog.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMAProduct.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMAProductWorker.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMATradeTracker.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMATransCode.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMATransCodeTranslator.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMASecType.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.UMASecurityTypeTranslator.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_Firm.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_Home.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_SMA.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditProductType.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ProductTypesEdit.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditMFirms.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ViewFirms.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditObjective.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ViewObjectives.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditFee.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ViewProducts.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditAgreement.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_SelectAgreement.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_AgreementProducts.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_UserViewFirms.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditPlatform.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_PlatformProducts.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ViewPlatforms.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditPlatformFee.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_EditWLPlatform.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ViewWLPlatform.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_PlatformAssignment.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ViewPlatformAssignments.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_LoadFirmApprovals.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_FirmReportViewer.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ViewExternalAdvisor.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ReportViewer_FirmMaster.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.map_ReportViewer_ProductMaster.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETF_PriceImportMain.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETF_PriceImportMapping.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETF_PriceImportEditMapping.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.TestCmd.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETF_PriceImport_SecData.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETF_PriceImport_EditImportSecurity.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETFPriceImport_Model.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETF_PriceImport_APXPortfolios.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.mdb_ETF_Pricing_ChangeHoldingWeight.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.ETF_PriceImport_AssetClassWeighting.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RevenueCenter.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\office.dll
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\office.xml
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RevenueCenter_Adjustments.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RevenueCenter_Address.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Resources\159.GIF
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RevenueCenterViewFirms.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Resources\Background.GIF
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rpt_RepBookBusiness.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rpt_RepBookBusinessViewer.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rpt_RepFirmLevelBreakdownViewer.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.SalesTeams.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Leads.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Leads_Rep.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.Lead_AdvAssociate.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.AMPFExcelExport.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.AMP_SecTypes.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.AccountMoves.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rfp_Answers.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.rfp_QuestionSortOrder.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.WhatsNewEdit.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.WhatsNew.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\obj\Debug\SMA_Toolbox.RFP_ReportViewer.resources
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Visual Studio 2008\LINKS Lite\LINKS Lite\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Dev\GIT\WindowsApplication\LINKS Lite\LINKS Lite\bin\Debug\Asset Management Toolbox.exe.config
+C:\Dev\GIT\WindowsApplication\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.exe
+C:\Dev\GIT\WindowsApplication\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.xml
+C:\Dev\GIT\WindowsApplication\LINKS Lite\LINKS Lite\obj\Debug\Asset Management Toolbox.pdb

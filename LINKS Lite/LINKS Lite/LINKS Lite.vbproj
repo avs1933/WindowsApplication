@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C78AC5A-9763-4C8C-BC7E-F7ADEB122C39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SMA_Toolbox.My.MyApplication</StartupObject>
+    <RootNamespace>SMA_Toolbox</RootNamespace>
+    <AssemblyName>Asset Management Toolbox</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>D3F1268A6DD816CD00F444456ADFC1F55EF70C03</ManifestCertificateThumbprint>
+    <ManifestKeyFile>LINKS Lite_2_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>toolbox.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>\\monumentco1\data\ToolboxFiles\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>Asset Management Toolbox</ProductName>
+    <PublisherName>Advisors Asset Management</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>2.10.2.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Asset Management Toolbox.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Asset Management Toolbox.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="RichTextBoxPrintCtrl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Z:\My Documents\Visual Studio 2008\Projects\RichTextBoxPrintCtrl\RichTextBoxPrintCtrl\bin\Release\RichTextBoxPrintCtrl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountMoves.Designer.vb">
+      <DependentUpon>AccountMoves.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountMoves.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountSearch.Designer.vb">
+      <DependentUpon>AccountSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AMPFExcelExport.Designer.vb">
+      <DependentUpon>AMPFExcelExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AMPFExcelExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AMP_SecTypes.Designer.vb">
+      <DependentUpon>AMP_SecTypes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AMP_SecTypes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AMSCover.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AMSCover.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="APXBrowser.Designer.vb">
+      <DependentUpon>APXBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APXBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommCalc.Designer.vb">
+      <DependentUpon>CommCalc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CommCalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contwithMain.Designer.vb">
+      <DependentUpon>contwithMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contwithMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leads.Designer.vb">
+      <DependentUpon>Leads.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Leads.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leads_Rep.Designer.vb">
+      <DependentUpon>Leads_Rep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Leads_Rep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lead_AdvAssociate.Designer.vb">
+      <DependentUpon>Lead_AdvAssociate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lead_AdvAssociate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rfp_Answers.Designer.vb">
+      <DependentUpon>rfp_Answers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rfp_Answers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RFP_Main.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RFP_Main.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RFP_Main2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RFP_Main2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rfp_QuestionSortOrder.Designer.vb">
+      <DependentUpon>rfp_QuestionSortOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rfp_QuestionSortOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RFP_ReportViewer.Designer.vb">
+      <DependentUpon>RFP_ReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RFP_ReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rpt_RepFirmLevelBreakdown1.vb">
+      <DependentUpon>rpt_RepFirmLevelBreakdown1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ETFPriceImport_Model.Designer.vb">
+      <DependentUpon>ETFPriceImport_Model.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETFPriceImport_Model.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETF_PriceImportEditMapping.Designer.vb">
+      <DependentUpon>ETF_PriceImportEditMapping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETF_PriceImportEditMapping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETF_PriceImportMain.Designer.vb">
+      <DependentUpon>ETF_PriceImportMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETF_PriceImportMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETF_PriceImportMapping.Designer.vb">
+      <DependentUpon>ETF_PriceImportMapping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETF_PriceImportMapping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETF_PriceImport_APXPortfolios.Designer.vb">
+      <DependentUpon>ETF_PriceImport_APXPortfolios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETF_PriceImport_APXPortfolios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETF_PriceImport_AssetClassWeighting.Designer.vb">
+      <DependentUpon>ETF_PriceImport_AssetClassWeighting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETF_PriceImport_AssetClassWeighting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETF_PriceImport_EditImportSecurity.Designer.vb">
+      <DependentUpon>ETF_PriceImport_EditImportSecurity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETF_PriceImport_EditImportSecurity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETF_PriceImport_SecData.Designer.vb">
+      <DependentUpon>ETF_PriceImport_SecData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ETF_PriceImport_SecData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_Report_FirmALL.vb">
+      <DependentUpon>map_Report_FirmALL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="map_FirmMaster_Product.vb">
+      <DependentUpon>map_FirmMaster_Product.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="map_FirmMaster.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>map_FirmMaster.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="map_ReportViewer_FirmMaster.Designer.vb">
+      <DependentUpon>map_ReportViewer_FirmMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ReportViewer_FirmMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ReportViewer_ProductMaster.Designer.vb">
+      <DependentUpon>map_ReportViewer_ProductMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ReportViewer_ProductMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_Report_FirmTEST.vb">
+      <DependentUpon>map_Report_FirmTEST.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="map_Report_FirmFINAL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>map_Report_FirmFINAL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="map_ReportChild_Firms_Platform.vb">
+      <DependentUpon>map_ReportChild_Firms_Platform.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBInfo.Designer.vb">
+      <DependentUpon>DBInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeeUpdate.Designer.vb">
+      <DependentUpon>FeeUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FeeUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmOverview.Designer.vb">
+      <DependentUpon>FirmOverview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FirmOverview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firms.Designer.vb">
+      <DependentUpon>Firms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Firms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmView.Designer.vb">
+      <DependentUpon>FirmView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FirmView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapDB.Designer.vb">
+      <DependentUpon>MapDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_AgreementProducts.Designer.vb">
+      <DependentUpon>map_AgreementProducts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_AgreementProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditAgreement.Designer.vb">
+      <DependentUpon>map_EditAgreement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditAgreement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditFee.Designer.vb">
+      <DependentUpon>map_EditFee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditFee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditMFirms.Designer.vb">
+      <DependentUpon>map_EditMFirms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditMFirms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditObjective.Designer.vb">
+      <DependentUpon>map_EditObjective.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditObjective.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditPlatform.Designer.vb">
+      <DependentUpon>map_EditPlatform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditPlatform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditPlatformFee.Designer.vb">
+      <DependentUpon>map_EditPlatformFee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditPlatformFee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditProductType.Designer.vb">
+      <DependentUpon>map_EditProductType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditProductType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_EditWLPlatform.Designer.vb">
+      <DependentUpon>map_EditWLPlatform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_EditWLPlatform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_Firm.Designer.vb">
+      <DependentUpon>map_Firm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_Firm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_FirmReportViewer.Designer.vb">
+      <DependentUpon>map_FirmReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_FirmReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_Home.Designer.vb">
+      <DependentUpon>map_Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_LoadFirmApprovals.Designer.vb">
+      <DependentUpon>map_LoadFirmApprovals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_LoadFirmApprovals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_PlatformAssignment.Designer.vb">
+      <DependentUpon>map_PlatformAssignment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_PlatformAssignment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_PlatformProducts.Designer.vb">
+      <DependentUpon>map_PlatformProducts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_PlatformProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ProductTypesEdit.Designer.vb">
+      <DependentUpon>map_ProductTypesEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ProductTypesEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ReportChild_Firms_Direct.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>map_ReportChild_Firms_Direct.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="map_ReportFirm.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>map_ReportFirm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="map_ReportFirm1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>map_ReportFirm1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="map_Reports_Firm.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>map_Reports_Firm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="map_SelectAgreement.Designer.vb">
+      <DependentUpon>map_SelectAgreement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_SelectAgreement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_SMA.Designer.vb">
+      <DependentUpon>map_SMA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_SMA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_UserViewFirms.Designer.vb">
+      <DependentUpon>map_UserViewFirms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_UserViewFirms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ViewExternalAdvisor.Designer.vb">
+      <DependentUpon>map_ViewExternalAdvisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ViewExternalAdvisor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ViewFirms.Designer.vb">
+      <DependentUpon>map_ViewFirms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ViewFirms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ViewObjectives.Designer.vb">
+      <DependentUpon>map_ViewObjectives.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ViewObjectives.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ViewPlatformAssignments.Designer.vb">
+      <DependentUpon>map_ViewPlatformAssignments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ViewPlatformAssignments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ViewPlatforms.Designer.vb">
+      <DependentUpon>map_ViewPlatforms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ViewPlatforms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ViewProducts.Designer.vb">
+      <DependentUpon>map_ViewProducts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ViewProducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map_ViewWLPlatform.Designer.vb">
+      <DependentUpon>map_ViewWLPlatform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map_ViewWLPlatform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterMapping.Designer.vb">
+      <DependentUpon>MasterMapping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterMapping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdb_ETF_Pricing_ChangeHoldingWeight.Designer.vb">
+      <DependentUpon>mdb_ETF_Pricing_ChangeHoldingWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mdb_ETF_Pricing_ChangeHoldingWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mmc_Database.Designer.vb">
+      <DependentUpon>mmc_Database.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mmc_Database.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Permissions.Designer.vb">
+      <DependentUpon>Permissions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProposalCover.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProposalCover.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RevenueCenter.Designer.vb">
+      <DependentUpon>RevenueCenter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueCenter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RevenueCenterViewFirms.Designer.vb">
+      <DependentUpon>RevenueCenterViewFirms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueCenterViewFirms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RevenueCenter_Address.Designer.vb">
+      <DependentUpon>RevenueCenter_Address.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueCenter_Address.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RevenueCenter_Adjustments.Designer.vb">
+      <DependentUpon>RevenueCenter_Adjustments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueCenter_Adjustments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RFPCenter.Designer.vb">
+      <DependentUpon>RFPCenter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RFPCenter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rfp_ChangeLog.Designer.vb">
+      <DependentUpon>rfp_ChangeLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rfp_ChangeLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rfp_Report.Designer.vb">
+      <DependentUpon>rfp_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rfp_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rfp_ReportQuestion.Designer.vb">
+      <DependentUpon>rfp_ReportQuestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rfp_ReportQuestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rfp_ReportsChangeLog.Designer.vb">
+      <DependentUpon>rfp_ReportsChangeLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rfp_ReportsChangeLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RFP_Resposes.Designer.vb">
+      <DependentUpon>RFP_Resposes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RFP_Resposes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoleEdit.Designer.vb">
+      <DependentUpon>RoleEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RoleEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoundUp.Designer.vb">
+      <DependentUpon>RoundUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RoundUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rpt_RepBookBusiness.Designer.vb">
+      <DependentUpon>rpt_RepBookBusiness.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_RepBookBusiness.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rpt_RepBookBusinessViewer.Designer.vb">
+      <DependentUpon>rpt_RepBookBusinessViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_RepBookBusinessViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rpt_RepBusinessBreakdown1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_RepBusinessBreakdown1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpt_RepFirmLevelBreakdownViewer.Designer.vb">
+      <DependentUpon>rpt_RepFirmLevelBreakdownViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_RepFirmLevelBreakdownViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInterfaceDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesInterfaceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInterfaceDataSet.vb">
+      <DependentUpon>SalesInterfaceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SalesTeams.Designer.vb">
+      <DependentUpon>SalesTeams.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesTeams.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpoofUser.Designer.vb">
+      <DependentUpon>SpoofUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpoofUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestCmd.Designer.vb">
+      <DependentUpon>TestCmd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestCmd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMA.Designer.vb">
+      <DependentUpon>UMA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMAChangeLog.Designer.vb">
+      <DependentUpon>UMAChangeLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMAChangeLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMAExceptons.Designer.vb">
+      <DependentUpon>UMAExceptons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMAExceptons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMAPortfolio.Designer.vb">
+      <DependentUpon>UMAPortfolio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMAPortfolio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMAPortfolioWorker.Designer.vb">
+      <DependentUpon>UMAPortfolioWorker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMAPortfolioWorker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMAProduct.Designer.vb">
+      <DependentUpon>UMAProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMAProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMAProductWorker.Designer.vb">
+      <DependentUpon>UMAProductWorker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMAProductWorker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMASecType.Designer.vb">
+      <DependentUpon>UMASecType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMASecType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMASecurityTypeTranslator.Designer.vb">
+      <DependentUpon>UMASecurityTypeTranslator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMASecurityTypeTranslator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMATradeEdit.Designer.vb">
+      <DependentUpon>UMATradeEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMATradeEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMATradeTracker.Designer.vb">
+      <DependentUpon>UMATradeTracker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMATradeTracker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMATransCode.Designer.vb">
+      <DependentUpon>UMATransCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMATransCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMATransCodeTranslator.Designer.vb">
+      <DependentUpon>UMATransCodeTranslator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMATransCodeTranslator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserEdit.Designer.vb">
+      <DependentUpon>UserEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.vb">
+      <DependentUpon>Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhatsNew.Designer.vb">
+      <DependentUpon>WhatsNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WhatsNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhatsNewEdit.Designer.vb">
+      <DependentUpon>WhatsNewEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WhatsNewEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountSearch.resx">
+      <DependentUpon>AccountSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AMSCover.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AMSCover.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APXBrowser.resx">
+      <DependentUpon>APXBrowser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommCalc.resx">
+      <DependentUpon>CommCalc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETFPriceImport_Model.resx">
+      <DependentUpon>ETFPriceImport_Model.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETF_PriceImportEditMapping.resx">
+      <DependentUpon>ETF_PriceImportEditMapping.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETF_PriceImportMain.resx">
+      <DependentUpon>ETF_PriceImportMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETF_PriceImportMapping.resx">
+      <DependentUpon>ETF_PriceImportMapping.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETF_PriceImport_APXPortfolios.resx">
+      <DependentUpon>ETF_PriceImport_APXPortfolios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETF_PriceImport_AssetClassWeighting.resx">
+      <DependentUpon>ETF_PriceImport_AssetClassWeighting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETF_PriceImport_EditImportSecurity.resx">
+      <DependentUpon>ETF_PriceImport_EditImportSecurity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ETF_PriceImport_SecData.resx">
+      <DependentUpon>ETF_PriceImport_SecData.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_Report_FirmALL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_Report_FirmALL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_FirmMaster_Product.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_FirmMaster_Product.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_FirmMaster.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_FirmMaster.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ReportViewer_FirmMaster.resx">
+      <DependentUpon>map_ReportViewer_FirmMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ReportViewer_ProductMaster.resx">
+      <DependentUpon>map_ReportViewer_ProductMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_Report_FirmTEST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_Report_FirmTEST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_Report_FirmFINAL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_Report_FirmFINAL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ReportChild_Firms_Platform.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_ReportChild_Firms_Platform.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBInfo.resx">
+      <DependentUpon>DBInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeeUpdate.resx">
+      <DependentUpon>FeeUpdate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmOverview.resx">
+      <DependentUpon>FirmOverview.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firms.resx">
+      <DependentUpon>Firms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmView.resx">
+      <DependentUpon>FirmView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapDB.resx">
+      <DependentUpon>MapDB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_AgreementProducts.resx">
+      <DependentUpon>map_AgreementProducts.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditAgreement.resx">
+      <DependentUpon>map_EditAgreement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditFee.resx">
+      <DependentUpon>map_EditFee.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditMFirms.resx">
+      <DependentUpon>map_EditMFirms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditObjective.resx">
+      <DependentUpon>map_EditObjective.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditPlatform.resx">
+      <DependentUpon>map_EditPlatform.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditPlatformFee.resx">
+      <DependentUpon>map_EditPlatformFee.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditProductType.resx">
+      <DependentUpon>map_EditProductType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_EditWLPlatform.resx">
+      <DependentUpon>map_EditWLPlatform.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_Firm.resx">
+      <DependentUpon>map_Firm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_FirmReportViewer.resx">
+      <DependentUpon>map_FirmReportViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_Home.resx">
+      <DependentUpon>map_Home.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_LoadFirmApprovals.resx">
+      <DependentUpon>map_LoadFirmApprovals.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_PlatformAssignment.resx">
+      <DependentUpon>map_PlatformAssignment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_PlatformProducts.resx">
+      <DependentUpon>map_PlatformProducts.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ProductTypesEdit.resx">
+      <DependentUpon>map_ProductTypesEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ReportChild_Firms_Direct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_ReportChild_Firms_Direct.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ReportFirm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_ReportFirm.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ReportFirm1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_ReportFirm1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_Reports_Firm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>map_Reports_Firm.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_SelectAgreement.resx">
+      <DependentUpon>map_SelectAgreement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_SMA.resx">
+      <DependentUpon>map_SMA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_UserViewFirms.resx">
+      <DependentUpon>map_UserViewFirms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ViewExternalAdvisor.resx">
+      <DependentUpon>map_ViewExternalAdvisor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ViewFirms.resx">
+      <DependentUpon>map_ViewFirms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ViewObjectives.resx">
+      <DependentUpon>map_ViewObjectives.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ViewPlatformAssignments.resx">
+      <DependentUpon>map_ViewPlatformAssignments.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ViewPlatforms.resx">
+      <DependentUpon>map_ViewPlatforms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ViewProducts.resx">
+      <DependentUpon>map_ViewProducts.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map_ViewWLPlatform.resx">
+      <DependentUpon>map_ViewWLPlatform.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMapping.resx">
+      <DependentUpon>MasterMapping.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdb_ETF_Pricing_ChangeHoldingWeight.resx">
+      <DependentUpon>mdb_ETF_Pricing_ChangeHoldingWeight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mmc_Database.resx">
+      <DependentUpon>mmc_Database.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions.resx">
+      <DependentUpon>Permissions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProposalCover.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProposalCover.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevenueCenter.resx">
+      <DependentUpon>RevenueCenter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevenueCenter_Address.resx">
+      <DependentUpon>RevenueCenter_Address.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevenueCenter_Adjustments.resx">
+      <DependentUpon>RevenueCenter_Adjustments.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RFPCenter.resx">
+      <DependentUpon>RFPCenter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rfp_ChangeLog.resx">
+      <DependentUpon>rfp_ChangeLog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rfp_Report.resx">
+      <DependentUpon>rfp_Report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rfp_ReportQuestion.resx">
+      <DependentUpon>rfp_ReportQuestion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rfp_ReportsChangeLog.resx">
+      <DependentUpon>rfp_ReportsChangeLog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RFP_Resposes.resx">
+      <DependentUpon>RFP_Resposes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoleEdit.resx">
+      <DependentUpon>RoleEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoundUp.resx">
+      <DependentUpon>RoundUp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpoofUser.resx">
+      <DependentUpon>SpoofUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCmd.resx">
+      <DependentUpon>TestCmd.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMA.resx">
+      <DependentUpon>UMA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMAChangeLog.resx">
+      <DependentUpon>UMAChangeLog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMAExceptons.resx">
+      <DependentUpon>UMAExceptons.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMAPortfolio.resx">
+      <DependentUpon>UMAPortfolio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMAPortfolioWorker.resx">
+      <DependentUpon>UMAPortfolioWorker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMAProduct.resx">
+      <DependentUpon>UMAProduct.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMAProductWorker.resx">
+      <DependentUpon>UMAProductWorker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMASecType.resx">
+      <DependentUpon>UMASecType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMASecurityTypeTranslator.resx">
+      <DependentUpon>UMASecurityTypeTranslator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMATradeEdit.resx">
+      <DependentUpon>UMATradeEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMATradeTracker.resx">
+      <DependentUpon>UMATradeTracker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMATransCode.resx">
+      <DependentUpon>UMATransCode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMATransCodeTranslator.resx">
+      <DependentUpon>UMATransCodeTranslator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserEdit.resx">
+      <DependentUpon>UserEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM Black.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM Black1616.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM Black3232.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM Black16161.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM Black24241.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM Black32321.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM Black48481.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM White.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM White1616.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM_logo_Final_Small_BW.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM1616.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM2424.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAM3232.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="LINKS Lite_1_TemporaryKey.pfx" />
+    <None Include="LINKS Lite_2_TemporaryKey.pfx" />
+    <None Include="LINKS Lite_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\TEST_ENVIRON_RED.JPG" />
+    <None Include="SalesInterfaceDataSet.xsc">
+      <DependentUpon>SalesInterfaceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SalesInterfaceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesInterfaceDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SalesInterfaceDataSet.xss">
+      <DependentUpon>SalesInterfaceDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.10.5">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports Basic for Visual Studio 2008 %28x86, x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountMoves.resx">
+      <DependentUpon>AccountMoves.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AMPFExcelExport.resx">
+      <DependentUpon>AMPFExcelExport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AMP_SecTypes.resx">
+      <DependentUpon>AMP_SecTypes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leads.resx">
+      <DependentUpon>Leads.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leads_Rep.resx">
+      <DependentUpon>Leads_Rep.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lead_AdvAssociate.resx">
+      <DependentUpon>Lead_AdvAssociate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rfp_Answers.resx">
+      <DependentUpon>rfp_Answers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RFP_Main.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RFP_Main.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RFP_Main2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RFP_Main2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rfp_QuestionSortOrder.resx">
+      <DependentUpon>rfp_QuestionSortOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RFP_ReportViewer.resx">
+      <DependentUpon>RFP_ReportViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_RepFirmLevelBreakdown1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_RepFirmLevelBreakdown1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\159.GIF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevenueCenterViewFirms.resx">
+      <DependentUpon>RevenueCenterViewFirms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="aamBW.ico" />
+    <Content Include="Resources\check-mark-8-small.png" />
+    <Content Include="Resources\Red X small.png" />
+    <Content Include="toolbox.ico" />
+    <EmbeddedResource Include="Resources\Background.GIF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_RepBookBusiness.resx">
+      <DependentUpon>rpt_RepBookBusiness.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_RepBookBusinessViewer.resx">
+      <DependentUpon>rpt_RepBookBusinessViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_RepBusinessBreakdown1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_RepBusinessBreakdown1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_RepFirmLevelBreakdownViewer.resx">
+      <DependentUpon>rpt_RepFirmLevelBreakdownViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesTeams.resx">
+      <DependentUpon>SalesTeams.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhatsNew.resx">
+      <DependentUpon>WhatsNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhatsNewEdit.resx">
+      <DependentUpon>WhatsNewEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
